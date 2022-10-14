@@ -91,6 +91,9 @@ console.log(Math.floor(Math.random()*101))
 console.log(Math.floor(Math.random() * 256))
 
 //Exercise day2 level2 number 10
+let charac = /a/gi
+let string2 = "JavaScript"
+console.log(string2.match(charac))
 
 //Exercise day2 level2 number 11
 
@@ -110,5 +113,6 @@ console.log(love.length)
 phrase.match(new RegExp("because", "g"))
 
 //Exercise day2 level2 number 3
+const sentence2 = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
 
-
+//Exercise day2 level2 number 4
